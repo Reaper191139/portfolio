@@ -21,7 +21,9 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0px 200px;
 }
+
 .nav-title {
   /* Mary */
   font-weight: 800;
@@ -39,4 +41,16 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+/*header realted styles*/
+.header {
+  background-color: #fff8f3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profilepic {
+    width: 500px;
 }
